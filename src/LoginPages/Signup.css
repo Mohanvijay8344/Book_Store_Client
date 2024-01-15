@@ -1,0 +1,40 @@
+
+.login_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6565ad;
+  min-height: 100vh;
+}
+  
+h1 {
+  font-size: 24px;
+  color: #ffffff;
+}
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  input {
+    width: 300px !important;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
